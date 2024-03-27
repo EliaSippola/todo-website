@@ -38,7 +38,7 @@ LOCAL_API_KEY = 1234567890
 
 location: `./client/.env`
 
-```
+```ini
 # api key to use when connecting to backend api
 # must match with backend api key
 REACT_APP_LOCAL_API_KEY = 1234567890
