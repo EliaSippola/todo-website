@@ -14,6 +14,10 @@ export const getTodos = async () => {
         })
     });
 
+    if (res == null) {
+        return null;
+    }
+
     return res.json();
 
 }
@@ -41,4 +45,16 @@ export const createTodo = async (text) => {
             content: text
         })
     });
+}
+
+// get one user
+export const checkLogin = async (user) => {
+    //const res = await fetch(baseUrl, {
+
+    //});
+    return false;
+}
+
+export const addUser = async (user) => {
+    return;
 }
