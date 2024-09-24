@@ -11,4 +11,6 @@ router.get('/', controller.getReq);
 // delete req
 router.delete('/', controller.deleteReq);
 
+router.put('/', controller.putReq);
+
 module.exports = router;

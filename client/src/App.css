@@ -18,6 +18,7 @@ h1 {
 ul {
   list-style-type: square;
   margin: 20px 0 20px 0;
+  overflow: hidden;
 }
 
 input[type=text], input[type=password] {
@@ -30,6 +31,10 @@ input[type=text], input[type=password] {
 input[type=text]:hover, input[type=password]:hover {
   border: 1px solid cadetblue;
   border-radius: 3px;
+}
+
+#editTodo {
+  width: 270px;
 }
 
 button {
@@ -48,10 +53,28 @@ button:hover {
   border-radius: 3px;
 }
 
+#save {
+  margin-left: 10px;
+  padding: 5px 5px;
+  width: 60px;
+  background-color: lightgreen;
+}
+
+#cancel {
+  margin-left: 5px;
+  padding: 5px 5px;
+  width: 60px;
+  background-color: red;
+}
+
 .delete {
   cursor: pointer;
   color: red;
   font-weight: bold;
+}
+
+.delete:hover {
+  color: darkred;
 }
 
 .todo-container {
@@ -64,4 +87,13 @@ button:hover {
 .link {
   color: blue;
   user-select: none;
+}
+
+.edit {
+  user-select: none;
+  color: blue;
+}
+
+.edit:hover {
+  color: darkblue;
 }
