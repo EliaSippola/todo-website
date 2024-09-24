@@ -4,6 +4,8 @@ Todo website created in one day as a school project
 
 Frontend is coded in React, and backend in Express and NodeJS. Backend contains api, that frontend connects to. Api provides todos from MongoDB database.
 
+**You need your own MongoDB database to run this project!**
+
 ## usage
 
 Create and delete todos
