@@ -48,6 +48,9 @@ REACT_APP_LOCAL_API_KEY = 1234567890
 # api url, match with backend location
 # backend will open api at '/todos' on default
 REACT_APP_API_URL = http://localhost:3030/todos
+
+# path to backend/build folder to build to server directly
+BUILD_PATH= '../server/build'
 ```
 
 3. Run backend and frontend
