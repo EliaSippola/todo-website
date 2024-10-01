@@ -330,7 +330,7 @@ http {
         root /var/www/html
 
         # this will serve all files located at /var/www/html/files
-        # default nginx can't server php files
+        # default nginx can't serve php files
         location /files {
         }
 
