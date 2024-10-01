@@ -351,6 +351,7 @@ http {
         # you can edit the default file location at apache conf, or just deal with it
 
         # you can still have 'location / {...}' to redirect rest of the traffic there
+        # even if you have set other locations like /store
     }
 }
 ```
